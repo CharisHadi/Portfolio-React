@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import './Home.css'
+// import { Link } from 'react-router-dom';
 
 
 class Home extends Component {
@@ -7,12 +8,12 @@ class Home extends Component {
     return (
     <div className="App">
       <img src = "./images/name-logo.png" alt = "logo"/>
-      {/* Link to List.js */}
-      <Link to={'./list'}>
+{/*       Link to Examplelink.js using React-Router-Dom
+      <Link to={'./Examplelink'}>
         <button variant="raised">
             My List
         </button>
-      </Link>
+      </Link> */}
     </div>
     );
   }
